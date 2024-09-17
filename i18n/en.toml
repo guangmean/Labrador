@@ -1,0 +1,82 @@
+[home]
+other = "Home"
+
+[next]
+other = "Next >>"
+
+[previous]
+other = "<< Previous"
+
+
+
+[sitename]
+other = "LabradorPal"
+
+[slogan]
+other = "Labrador Discover the unique Charm of Labrador"
+
+[more]
+other = "LEARN MORE"
+
+[search]
+other = "Search"
+
+[searchplaceholder]
+other = "Input Keywords..."
+
+[searching]
+other = "Searching..."
+
+[keywordmissing]
+other = "Please enter a word or phrase above to search."
+
+[nomatch]
+other = "No matches found"
+
+[recommendpost]
+other = "Recommend Posts"
+
+[intro]
+other = "About"
+
+[guess]
+other = "You Might Also Like"
+
+[topcat]
+other = "Hot Categories"
+
+[toptag]
+other = "Top Tags"
+
+[archive]
+other = "Archive Analytics"
+
+[contact]
+other = "Contact"
+
+[emptypost]
+other = "No Regular Posts"
+
+[emptycat]
+other = "No Categories"
+
+[emptytag]
+other = "No Tags"
+
+[emptyarchive]
+other = "No Archives"
+
+[missing404title]
+other = "Page not found"
+
+[missing404body]
+other = "Sorry, we couldn’t find the page you’re looking for."
+
+[seohometitle]
+other = "LabradorPal - Labrador Retriever Care, Training Tips & Health Guide"
+
+[seohomekeywords]
+other = "Labrador, Labrador Retriever, Labrador puppy, Labrador care, Labrador training, Labrador health, Labrador temperament, pet dog, family dog, dog care, dog training"
+
+[seohomedescription]
+other = "Welcome to the ultimate hub for Labrador Retriever enthusiasts! We are dedicated to providing the most comprehensive Labrador information, including care guides, training tips, health advice, and breed characteristics to help you build a deep bond with your Labrador companion."

@@ -1,0 +1,17 @@
+<footer class="">
+    <div
+        class="p-5 text-xl text-center font-light mt-8 pt-8 pb-8 border-t border-labrador-300 border-dashed text-labrador-txt-900">
+        {{ if .Site.Params.copyright }}
+        {{ .Site.Params.copyright | safeHTML }}
+        {{ else }}
+        &#xA9; 2024 by <a class="hover:text-gray-100" href="https://github.com/guangmean/Labrador"
+            target="_blank">guangmean</a>. All Rights
+        Reserved.
+        {{ end }}
+
+        {{ range .Site.Languages }}
+        | <a class="hover:text-gray-100" href="{{ if eq .Lang " en" }} / {{ else }} /{{.Lang}} {{ end }}">{{
+            .LanguageName }}</a>
+        {{ end }}
+    </div>
+</footer>

@@ -1,0 +1,80 @@
+[home]
+other = "ホーム"
+
+[next]
+other = "次のページ >>"
+
+[previous]
+other = "<< 前のページ"
+
+[sitename]
+other = "LabradorPal"
+
+[slogan]
+other = "ラブラドール・レトリバーの魅力を発見する"
+
+[more]
+other = "もっと詳しく"
+
+[search]
+other = "検索"
+
+[searchplaceholder]
+other = "キーワードを入力..."
+
+[searching]
+other = "検索中..."
+
+[keywordmissing]
+other = "検索キーワードを入力してください！"
+
+[nomatch]
+other = "該当するコンテンツが見つかりません！"
+
+[recommendpost]
+other = "おすすめの記事"
+
+[intro]
+other = "私たちについて"
+
+[guess]
+other = "あなたへのおすすめ"
+
+[topcat]
+other = "人気カテゴリー"
+
+[toptag]
+other = "人気タグ"
+
+[archive]
+other = "アーカイブ"
+
+[contact]
+other = "お問い合わせ"
+
+[emptypost]
+other = "記事が見つかりません"
+
+[emptycat]
+other = "カテゴリーが見つかりません"
+
+[emptytag]
+other = "タグが見つかりません"
+
+[emptyarchive]
+other = "アーカイブが見つかりません"
+
+[missing404title]
+other = "すみません"
+
+[missing404body]
+other = "ページが存在しません"
+
+[seohometitle]
+other = "LabradorPal - ラブラドール・レトリーバーのケア、トレーニングと健康ガイド"
+
+[seohomekeywords]
+other = "ラブラドール, ラブラドール・レトリバー, ラブラドール子犬, ラブラドール飼育, ラブラドールトレーニング, ラブラドール健康, ラブラドール性格, ペット犬, 家庭犬, 犬のケア, 犬のトレーニング"
+
+[seohomedescription]
+other = "ラブラドール・レトリバー愛好家の皆さん、ようこそ！当サイトは、飼育ガイド、トレーニングのコツ、健康アドバイス、品種の特徴など、ラブラドールに関する最も包括的な情報を提供し、ラブラドールとの深い絆を築くお手伝いをいたします。"

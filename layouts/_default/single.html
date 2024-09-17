@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<div class="w-full flex flex-row justify-start text-labrador-txt-500 text-lg mt-5 mb-1">
+  <ul class="flex flex-row gap-x-2">
+    <li class="">
+      <a href="/" class="hover:text-gray-100">{{ i18n "home" }}</a>
+    </li>
+    {{ if or (eq .Kind "taxonomy") (eq .Kind "term") (eq .Kind "section") (.IsPage) }}
+    <li>
+      &gt;&nbsp;&nbsp;<a href="{{ .Page.RelPermalink }}" class="hover:text-gray-100">{{ .Page.Name }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+<div class="w-full h-2 border-b border-b-labrador-300 border-dashed font-light text-gray-300">
+</div>
+
+<div class="w-full flex flex-col lg:flex-row py-5">
+  <article class="text-2xl font-light text-labrador-txt-500 leading-10 px-5 lg:px-0">
+    <h1 class="text-5xl font-medium text-labrador-txt-900 leading-snug">{{ .Title }}</h1>
+
+    <!--
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format ":date_long" }}
+    <time datetime="{{ $dateMachine }}" class="py-5 text-xl text-labrador-300">{{ $dateHuman }}</time>
+    -->
+
+    {{ .Content }}
+
+
+  </article>
+  {{ partial "sidebar.html" . }}
+
+  <!-- {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }} -->
+</div>
+
+{{ end }}

@@ -1,0 +1,82 @@
+[home]
+other = "首页"
+
+[next]
+other = "下一页 >>"
+
+[previous]
+other = "<< 上一页"
+
+
+
+[sitename]
+other = "LabradorPal"
+
+[slogan]
+other = "发现拉布拉多寻回猎犬的独特魅力"
+
+[more]
+other = "了解更多"
+
+[search]
+other = "搜索"
+
+[searchplaceholder]
+other = "输入关键词..."
+
+[searching]
+other = "正在搜索..."
+
+[keywordmissing]
+other = "请输入搜索关键词!"
+
+[nomatch]
+other = "未找到相关内容!"
+
+[recommendpost]
+other = "推荐文章"
+
+[intro]
+other = "关于我们"
+
+[guess]
+other = "猜你喜欢"
+
+[topcat]
+other = "热门分类"
+
+[toptag]
+other = "热门标签"
+
+[archive]
+other = "归档统计"
+
+[contact]
+other = "联系方式"
+
+[emptypost]
+other = "未发现常规内容"
+
+[emptycat]
+other = "未发现分类"
+
+[emptytag]
+other = "未发现标签"
+
+[emptyarchive]
+other = "未发现归档"
+
+[missing404title]
+other = "抱歉"
+
+[missing404body]
+other = "页面不存在"
+
+[seohometitle]
+other = "LabradorPal - 拉布拉多犬知识、训练技巧与健康指南"
+
+[seohomekeywords]
+other = "拉布拉多, 拉布拉多犬, 拉布拉多犬图片, 拉布拉多幼犬, 拉布拉多饲养, 拉布拉多训练, 拉布拉多健康, 拉布拉多性格, 宠物狗, 家庭犬, 狗狗护理, 狗狗训练"
+
+[seohomedescription]
+other = "欢迎来到拉布拉多犬爱好者的专属天地！我们致力于提供最全面的拉布拉多犬资讯，包括饲养指南、训练技巧、健康护理和品种特点，帮助您与您的拉布拉多伙伴建立深厚的情感纽带。"

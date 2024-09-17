@@ -1,0 +1,14 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+{{ if .IsHome }}
+<title>{{ i18n "seohometitle" }}</title>
+<meta name="keywords" content='{{ i18n "seohomekeywords" }}'>
+<meta name="description" content='{{ i18n "seohomedescription" }}'>
+{{ else }}
+<title>{{ printf "%s - %s" site.Title .Title }}</title>
+<meta name="keywords" content="{{ with .Keywords }} {{- delimit . " , " -}} {{ end }}">
+<meta name="description" content="{{ with .Description }} {{- . -}} {{ end }}">
+{{ end }}
+
+{{ partialCached "head/css.html" . }}
+{{ partialCached "head/js.html" . }}
