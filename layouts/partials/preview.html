@@ -1,12 +1,11 @@
-<article
-    class="flex flex-col lg:flex-row items-center py-5 px-5 lg:px-2 {{ if mod .index 2 }}{{ else }}border-b border-dashed border-labrador-300{{ end}}">
+<article class="flex flex-col lg:flex-row items-center py-5 px-5 lg:px-2 {{ if mod .index 2 }}bg-labrador-150{{ end}}">
     <div class="flex-none w-full lg:w-64 h-64 rounded-lg shadow-lg shadow-labrador-300 hover:shadow-labrador-8000">
         {{ $image := partial "imagextractor.html" . }}
         <img src="{{ $image }}" alt="Article Pic" class="w-full h-64 rounded-2xl object-cover" />
     </div>
     <div class="w-full lg:p-5 overflow-auto">
         <h3
-            class="lg:pt-0 line-clamp-1 text-5xl text-center lg:text-start font-medium leading-snug text-labrador-txt-900 hover:text-labrador-600">
+            class="lg:pt-0 line-clamp-2 text-3xl text-center lg:text-start font-medium leading-snug text-labrador-txt-900 hover:text-labrador-600">
             <a href="{{ .context.RelPermalink }}">
                 {{ .context.LinkTitle }}
             </a>
