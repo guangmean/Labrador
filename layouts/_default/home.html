@@ -1,10 +1,9 @@
 {{ define "main" }}
-<div
-  class="w-full flex flex-wrap flex-col lg:flex-row items-start justify-start px-2 lg:px-0 py-10 gap-9 bg-labrador-200">
+<div class="columns-4 py-8 gap-5">
 
   {{ range (where site.RegularPages "Params.categories" "intersect" (slice "home")) }}
-  <a href="{{ .RelPermalink }}" class="hover:cursor-pointer hover:scale-105">
-    <div class="home-card-container">
+  <a href="{{ .RelPermalink }}" class="hover:cursor-pointer">
+    <div class="home-card-container masonry-item mb-5">
       {{ $image := partial "imagextractor.html" (dict "context" .) }}
       <img src="{{ $image }}" class="w-full h-auto object-cover lg:object-contain" />
       <h3 lang="{{ .Lang }}" class="w-full h-auto my-5 px-2 overflow-hidden text-3xl font-medium text-labrador-txt-900">
@@ -17,4 +16,5 @@
   {{ end }}
 
 </div>
+
 {{ end }}
