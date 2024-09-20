@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="columns-4 py-8 gap-5">
+<div class="columns-1 lg:columns-4 py-8 gap-5">
 
   {{ range (where site.RegularPages "Params.categories" "intersect" (slice "home")) }}
   <a href="{{ .RelPermalink }}" class="hover:cursor-pointer">
