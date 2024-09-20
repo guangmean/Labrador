@@ -29,6 +29,14 @@
     margin-top: 1.2rem;
   }
 
+  article>h2>a {
+    text-decoration: underline;
+  }
+
+  article>h3>a {
+    text-decoration: underline;
+  }
+
   article>p {
     padding: 0.5rem 0;
   }
