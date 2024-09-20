@@ -1,7 +1,7 @@
 <article class="list-container {{ if mod .index 2 }}bg-labrador-150{{ end}}">
     <div class="flex-none w-full lg:w-64 h-64 rounded-2xl shadow-lg shadow-labrador-300 hover:shadow-labrador-8000">
         {{ $image := partial "imagextractor.html" . }}
-        <img src="{{ $image }}" alt="Article Pic" class="w-full h-64 rounded-2xl object-cover" />
+        <img src="{{ $image }}?v={{ now.Unix }}" alt="Article Pic" class="w-full h-64 rounded-2xl object-cover" />
     </div>
     <div class="w-full lg:p-5 overflow-auto">
         <h3

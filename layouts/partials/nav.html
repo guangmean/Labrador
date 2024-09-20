@@ -1,7 +1,7 @@
 <div x-data="{ openMenu: false }" class="w-full relative">
     <nav class="flex flex-1 flex-col lg:flex-row items-center justify-between">
         <a href="/" class="inline-block px-5">
-            <img src="/images/labradorpal.webp" alt="Labrador" class="w-auto h-28">
+            <img src="/images/labradorpal.webp?v={{ now.Unix }}" alt="Labrador" class="w-auto h-28">
         </a>
         <div class="hidden lg:block" :class="{'hidden': !openMenu}">
             {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
