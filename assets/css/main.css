@@ -69,11 +69,13 @@
 
 }
 
-.columns-4 {
-  column-count: 4;
-  column-gap: 1rem;
-}
+@layer utilities {
+  .columns-4 {
+    column-count: 4;
+    column-gap: 1rem;
+  }
 
-.masonry-item {
-  break-inside: avoid;
+  .masonry-item {
+    break-inside: avoid;
+  }
 }
