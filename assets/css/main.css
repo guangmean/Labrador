@@ -48,3 +48,23 @@
     padding: 1.5rem 0;
   }
 }
+
+@layer components {
+
+  .home-card-container {
+    @apply w-full lg:w-72 text-center pb-10 bg-gradient-to-b from-labrador-100 to-labrador-150 shadow-lg shadow-labrador-300 hover:shadow-labrador-800 rounded-2xl overflow-hidden;
+  }
+
+  .list-container {
+    @apply flex flex-col lg:flex-row items-center py-5 px-5 lg:px-2;
+  }
+
+  .aside-title {
+    @apply flex flex-row items-center justify-start gap-x-2 text-2xl font-normal pb-2 border-b border-b-labrador-txt-500/10 mb-3 mt-10 text-labrador-txt-900;
+  }
+
+  .aside-empty {
+    @apply my-2 leading-10 line-clamp-1 mb-1 font-light text-labrador-txt-500/50;
+  }
+
+}

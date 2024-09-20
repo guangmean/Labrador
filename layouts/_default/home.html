@@ -4,8 +4,7 @@
 
   {{ range (where site.RegularPages "Params.categories" "intersect" (slice "home")) }}
   <a href="{{ .RelPermalink }}" class="hover:cursor-pointer hover:scale-105">
-    <div
-      class="w-full lg:w-72 text-center pb-10 bg-gradient-to-b from-labrador-100 to-labrador-150 shadow-lg shadow-labrador-300 hover:shadow-labrador-800 rounded-2xl overflow-hidden">
+    <div class="home-card-container">
       {{ $image := partial "imagextractor.html" (dict "context" .) }}
       <img src="{{ $image }}" class="w-full h-auto object-cover lg:object-contain" />
       <h3 lang="{{ .Lang }}" class="w-full h-auto my-5 px-2 overflow-hidden text-3xl font-medium text-labrador-txt-900">

@@ -2,8 +2,7 @@
     class="w-full sm:w-96 mx-2 px-5 sm:px-8 pb-8 relative flex-shrink-0 overflow-auto text-labrador-txt-500 lg:relative">
 
     <!-- Posts -->
-    <div
-        class="flex flex-row items-center justify-start gap-x-2 text-2xl font-normal pb-2 border-b border-b-labrador-txt-500/10 mb-3 mt-10 text-labrador-txt-900">
+    <div class="aside-title">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
             class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round"
@@ -19,15 +18,14 @@
         </li>
         {{ end }}
         {{ else }}
-        <li class="my-2 leading-10 line-clamp-1 mb-1 font-light text-gray-600">
+        <li class="aside-empty">
             {{ i18n "emptypost"}}
         </li>
         {{ end }}
     </ul>
 
     <!-- Categories -->
-    <div
-        class="flex flex-row items-center justify-start gap-x-2 text-2xl font-normal pb-2 border-b border-b-labrador-txt-500/10 mb-3 mt-8 text-labrador-txt-900">
+    <div class="aside-title">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
             class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round"
@@ -47,7 +45,7 @@
         {{ end }}
         {{ end }}
         {{ else }}
-        <li class="mb-1 font-light text-gray-600">{{ i18n "emptycat"}}</li>
+        <li class="aside-empty">{{ i18n "emptycat"}}</li>
         {{ end }}
 
     </ul>

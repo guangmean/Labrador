@@ -1,5 +1,5 @@
-<article class="flex flex-col lg:flex-row items-center py-5 px-5 lg:px-2 {{ if mod .index 2 }}bg-labrador-150{{ end}}">
-    <div class="flex-none w-full lg:w-64 h-64 rounded-lg shadow-lg shadow-labrador-300 hover:shadow-labrador-8000">
+<article class="list-container {{ if mod .index 2 }}bg-labrador-150{{ end}}">
+    <div class="flex-none w-full lg:w-64 h-64 rounded-2xl shadow-lg shadow-labrador-300 hover:shadow-labrador-8000">
         {{ $image := partial "imagextractor.html" . }}
         <img src="{{ $image }}" alt="Article Pic" class="w-full h-64 rounded-2xl object-cover" />
     </div>
