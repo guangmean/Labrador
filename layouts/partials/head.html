@@ -9,6 +9,7 @@
 <meta name="keywords" content="{{ with .Keywords }} {{- delimit . " , " -}} {{ end }}">
 <meta name="description" content="{{ with .Description }} {{- . -}} {{ end }}">
 {{ end }}
+<link rel="canonical" href="{{ .Page.Permalink }}" />
 
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
