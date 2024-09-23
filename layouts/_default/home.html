@@ -5,7 +5,8 @@
   <a href="{{ .RelPermalink }}" class="hover:cursor-pointer">
     <div class="home-card-container masonry-item mb-5">
       {{ $image := partial "imagextractor.html" (dict "context" .) }}
-      <img src="{{ $image }}?v={{ now.Unix }}" class="w-full h-auto object-cover lg:object-contain" />
+      <img src="{{ $image.url }}?v={{ now.Unix }}" alt="{{ $image.alt }}"
+        class="w-full h-auto object-cover lg:object-contain" />
       <h3 lang="{{ .Lang }}" class="w-full h-auto my-5 px-2 overflow-hidden text-3xl font-medium text-labrador-txt-900">
         {{
         .Title
